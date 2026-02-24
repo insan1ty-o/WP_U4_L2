@@ -28,6 +28,11 @@ div{
       margin: 5px;
       padding: 5px;
 }
+
+.key:hover {
+    background-color: gray;
+}
+
 .in_and_out {
   border: 2px solid;
   display: flex;
@@ -59,84 +64,3 @@ div{
  
 }
 
-.button:hover {
-    background-color: gray;
-}
-
-#a {
-}
-
-#b {
-}
-
-#c {
-}
-
-#d {
-}
-
-#e {
-}
-
-#f {
-}
-
-#g {
-}
-
-#h {
-}
-
-#i {
-}
-
-#j {
-}
-
-#k {
-}
-
-#l {
-}
-
-#m {
-}
-
-#n {
-}
-
-#o {
-}
-
-#p {
-}
-
-#q {
-}
-
-#r {
-}
-
-#s {
-}
-
-#t {
-}
-
-#u {
-}
-
-#v {
-}
-
-#w {
-}
-
-#x {
-}
-
-#y {
-}
-
-#z {
-}
