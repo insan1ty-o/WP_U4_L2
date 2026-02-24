@@ -1,6 +1,6 @@
 const alpha = "qwertyuiop*asdfghjkl*zxcvbnm";
 const bodytag = document.getElementsByTagName("body")[0];
-
+const phrases = []
 var counter = 0
 function genKeyboard(){
   for (let i=0; i < 3; i++){
@@ -22,7 +22,7 @@ function genKeyboard(){
 
 }
 function keyPress(id) {
-  let output = document.getElementsByTagName("div")[32];
+  let output = document.getElementsByTagName("div")[33];
   output.textContent = output.textContent + id
 }
 
