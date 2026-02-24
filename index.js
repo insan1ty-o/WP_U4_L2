@@ -3,7 +3,7 @@ const bodytag = document.getElementsByTagName("body")[0];
 
 var counter = 0
 function genKeyboard(){
-  for (let i=0; i < 4; i++){
+  for (let i=0; i < 3; i++){
     let newRow = document.createElement("div");
     newRow.className = "row";
     bodytag.appendChild(newRow);
@@ -18,32 +18,11 @@ function genKeyboard(){
       counter++
     }
     counter++
-    if (i >= 3) {
-      newRow.className = "row";
-      bodytag.appendChild(newRow);
-      let space = document.createElement("div");
-      space.className = "key";
-      space.id = "spacebar";
-      space.setAttribute("onclick", "keyPress(id)");
-      space.textContent = " ";
-      newRow.appendChild(space);
-      
-    }
   }
 
 }
 function keyPress(id) {
-  let input = document.getElementsByTagName("div")[34];
-  if (id == "spacebar") {
-    input.textContent = input.textContent + " "
-  }
-  else {
-    input.textContent = input.textContent + id
-  }
+  let output = document.getElementsByTagName("div")[32];
+  output.textContent = output.textContent + id
 }
-function Submittext() {
-  let input = document.getElementsByTagName("div")[34]
-  let output = document.getElementsByTagName("div")[38]
-  output.textContent = input.textContent
-  input.textContent = ""
-}
+
