@@ -30,7 +30,7 @@ div{
       padding: 5px;
 }
 
-.key:hover {
+.key:hover, #replay:hover {
     background-color: gray;
 }
 
