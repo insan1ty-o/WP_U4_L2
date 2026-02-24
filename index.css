@@ -1,0 +1,230 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+div{
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100vw
+}
+
+.key{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border: 2px, solid;
+      font-size: large;
+      margin: 5px;
+      padding: 5px;
+}
+.in_and_out {
+  border: 2px solid;
+  display: flex;
+    width: 20vw;
+    justify-content: center;
+    text-align: center;
+}
+#input {
+  display: flex;
+    width: 20vw;
+    justify-content: center;
+    text-align: center;
+}
+
+#output {
+  display: flex;
+    width: 20vw;
+    justify-content: center;
+    text-align: center;
+}  
+
+#i_Oholder {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 5px;
+    padding: 5px;
+ 
+}
+#a {
+
+}
+#a:hover {
+  background-color: gray;
+}
+#b {
+
+}
+#b:hover {
+  background-color: gray;
+}
+#c {
+
+}
+#c:hover {
+  background-color: gray;
+}
+#d {
+
+}
+#d:hover {
+  background-color: gray;
+}
+#e {
+
+}
+#e:hover {
+  background-color: gray;
+}
+#f {
+
+}
+#f:hover {
+  background-color: gray;
+}
+#g {
+
+}
+#g:hover {
+  background-color: gray;
+}
+#h {
+
+}
+#h:hover {
+  background-color: gray;
+}
+#i {
+
+}
+#i:hover {
+  background-color: gray;
+}
+#j {
+
+}
+#j:hover {
+  background-color: gray;
+}
+#k {
+
+}
+#k:hover {
+  background-color: gray;
+}
+#l {
+
+}
+#l:hover {
+  background-color: gray;
+}
+#m {
+
+}
+#m:hover {
+  background-color: gray;
+}
+#n {
+
+}
+#n:hover {
+  background-color: gray;
+}
+#o {
+
+}
+#o:hover {
+  background-color: gray;
+}
+#p {
+
+}
+#p:hover {
+  background-color: gray;
+}
+#q {
+
+}
+#q:hover {
+  background-color: gray;
+}
+#r {
+
+}
+#r:hover {
+  background-color: gray;
+}
+#s {
+
+}
+#s:hover {
+  background-color: gray;
+}
+#t {
+
+}
+#t:hover {
+  background-color: gray;
+}
+#u {
+
+}
+#u:hover {
+  background-color: gray;
+}
+#v {
+
+}
+#v:hover {
+  background-color: gray;
+}
+#w {
+
+}
+#w:hover {
+  background-color: gray;
+}
+#x {
+
+}
+#x:hover {
+  background-color: gray;
+}
+#y {
+
+}
+#y:hover {
+  background-color: gray;
+}
+#z {
+
+}
+#z:hover {
+  background-color: gray;
+}
+#spacebar {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 30px;
+    border: 2px, solid;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+}
+#spacebar:hover {
+  background-color: gray;
+}
