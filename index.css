@@ -1,9 +1,10 @@
-body{
+body {
   display: flex;
+  background-color: darkgrey;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
 }
 div{
   justify-content: center;
@@ -14,7 +15,7 @@ div{
 .row{
     display: flex;
     flex-direction: row;
-    width: 100vw
+    width: 97vw
 }
 
 .key{
@@ -47,6 +48,21 @@ div{
     text-align: center;
 }
 
+#body {
+    height: 10vh;
+}
+
+#gameplay {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+}
+
+#replay {
+    border: 2px solid black;
+}
+
 #output {
   display: flex;
     width: 20vw;
@@ -57,8 +73,9 @@ div{
 #i_Oholder {
   display: flex;
     justify-content: space-around;
+    align-self: flex-end;
     align-items: center;
-    width: 100vw;
+    width: 20vw;
     margin: 5px;
     padding: 5px;
  
