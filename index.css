@@ -98,6 +98,16 @@ p, a, div {
     margin-top: 0vh;
 }
 
+#winstate {
+    display: flex;
+    visibility: hidden;
+    align-items: center;
+    background-color: rgb(138, 138, 138);
+    height: 5vh;
+    font-size: 4.5vh;
+    width: 100vw;
+}
+
 #i_Oholder {
   display: flex;
     justify-content: space-around;
