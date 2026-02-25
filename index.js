@@ -1,7 +1,7 @@
 const alpha = "qwertyuiop*asdfghjkl*zxcvbnm";
 const bodytag = document.getElementsByTagName("body")[0];
 const phrases = ["BURGER","CIRCLE","NUGGET","BETTER","FASTER","STRONGER","STARDEW","ISAAC","PUNCHOUT","CALAMITY"]
-const choice =  return Math.floor(Math.random() * (9 - min + 1)) + min 
+const choice =  Math.floor(Math.random() * (9 - 0 + 1)) + 0 
 var counter = 0
 function genKeyboard(){
   for (let i=0; i < 4; i++){
