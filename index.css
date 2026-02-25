@@ -42,12 +42,11 @@ p, a, div {
 }
 
 #replay:hover {
-    background-color: lightcoral;
-    cursor:pointer;
+    background-color: darkred;
+    cursor:auto;
 }
 
 .in_and_out {
-  border-bottom: 2px solid;
   display: flex;
     width: 40vw;
     justify-content: center;
@@ -65,25 +64,31 @@ p, a, div {
     width: 7vw;
 }
 
+#hanger {
+    height: 20vw;
+}
+
 .letter {
-    height: 15px;
-    width: 15px;
+    border-bottom: 3px solid;
+    margin-right: 0.85vw;
+    height: 25px;
+    width: 25px;
 }
 
 #gameplay {
     display: flex;
     flex-direction: row;
     margin-top: 3.5vh;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
 }
 
 #replay {
     display:flex;
-    background-color: darkred;
-    visibility: visible;
+    background-color: red;
+    visibility:hidden;
     justify-self: center;
     border: 2px solid black;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
     border-radius: 0.5vh;
     height: 4vh;
     width: 5vw;
@@ -106,37 +111,37 @@ p, a, div {
 }
 
 #w1 {
-    left:39.5vw;
-    top:15vh;
+    left:39vw;
+    top:7.5vh;
     visibility: hidden;
 }
 
 #w2 {
-    left:39.5vw;
-    top:15vh;
+    left:39vw;
+    top:7.5vh;
     visibility: hidden;
 }
 
 #w3 {
-    left:39.5vw;
-    top:15vh;
+    left:39vw;
+    top:7.5vh;
     visibility: hidden;
 }
 
 #w4 {
-    left:39.5vw;
-    top:15vh;
+    left:39vw;
+    top:7.5vh;
     visibility: hidden;
 }
 
 #w5 {
     left:39vw;
-    top:15vh;
-    visibility: visible;
+    top:7.5vh;
+    visibility: hidden;
 }
 
 #w6 {
-    left:39.5vw;
-    top:15vh;
+    left:39vw;
+    top:7.5vh;
     visibility: hidden;
 }
