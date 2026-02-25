@@ -19,6 +19,19 @@ function genKeyboard(){
       counter++
     }
     counter++
+    if (i == 3) {
+      phrase = phrases[choice]
+      console.log(phrase)
+      length = phrase.length
+      holder = document.getElementsByClassName("in_and_out")[0]
+      console.log(length)
+      for(let i= 0; i < length; i++) {
+        let newletter = document.createElement("div");
+        newletter.className = "letter";
+        holder.appendChild(newletter);
+        console.log("increased div amount")
+      }
+    }
   }
 
 }
@@ -27,6 +40,3 @@ function keyPress(id) {
   output.textContent = output.textContent + id
 }
 
-function randint(max, min) {
-    return Math.floor(Math.random() * (max - min + 1)) + min 
-}
