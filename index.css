@@ -85,6 +85,7 @@ p, a, div {
 #replay {
     display:flex;
     position:fixed;
+    cursor:pointer;
     background-color: red;
     visibility:hidden;
     font-size: 15vh;
