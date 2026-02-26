@@ -65,7 +65,7 @@ p, a, div {
 }
 
 #hanger {
-    height: 20vw;
+    width: 11.5vw;
 }
 
 .letter {
@@ -122,36 +122,36 @@ p, a, div {
 
 #w1 {
     left:39vw;
-    top:7.5vh;
+    top:12.5vh;
     visibility: hidden;
 }
 
 #w2 {
     left:39vw;
-    top:7.5vh;
+    top:12.5vh;
     visibility: hidden;
 }
 
 #w3 {
     left:39vw;
-    top:7.5vh;
+    top:12.5vh;
     visibility: hidden;
 }
 
 #w4 {
     left:39vw;
-    top:7.5vh;
+    top:12.5vh;
     visibility: hidden;
 }
 
 #w5 {
     left:39vw;
-    top:7.5vh;
+    top:12.5vh;
     visibility: hidden;
 }
 
 #w6 {
     left:39vw;
-    top:7.5vh;
+    top:12.5vh;
     visibility: hidden;
 }
