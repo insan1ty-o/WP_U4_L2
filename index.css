@@ -84,14 +84,16 @@ p, a, div {
 
 #replay {
     display:flex;
+    position:fixed;
     background-color: red;
     visibility:hidden;
+    font-size: 15vh;
     justify-self: center;
     border: 2px solid black;
     margin-bottom: 2vh;
     border-radius: 0.5vh;
-    height: 4vh;
-    width: 5vw;
+    height: 40vh;
+    width: 80vw;
 }
 
 #contents {
