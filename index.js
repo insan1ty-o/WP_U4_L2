@@ -3,6 +3,7 @@ const bodytag = document.getElementsByTagName("body")[0];
 const phrases = ["BURGER","CIRCLE","NUGGET","BETTER","FASTER","STRONGER","STARDEW","ISAAC","PUNCHOUT","CALAMITY"]
 const choice =  phrases[Math.floor(Math.random() * (9 - 0 + 1)) + 0]
 let deathcounter = 0 
+let wincounter = 0 
 var counter = 0
 function genKeyboard(){
   for (let i=0; i < 4; i++){
@@ -44,24 +45,51 @@ function keyPress(id) {
   if (choice.includes(id)) {
     console.log("yo")  
     for(let i= 0; i < length; i++) {
+      console.log(choice[i])
       if (choice[i] == id) {
         index.push(i)
         
       }
-      console.log(id)
-      console.log(choice[i])
-    }  
-    console.log(counter)
+    }
+
+    id = id.toLowerCase()  
+    const key = document.getElementById(id);
+    key.style.backgroundColor = "green";
+    key.style.cursor = "auto";
+    key.removeAttribute("onclick")
     console.log(index)
+    for (let i = 0; i < index.length; i++) {
+      phrasebox = document.getElementById(`${[index[i]]}`)
+      phrasebox.textContent = id.toUpperCase()
+      wincounter +=1
+    }
+    if (wincounter == choice.length) {
+      winstate = document.getElementById("winstate")
+      winstate.textContent = "Congratulations, YOU WON!!!"
+      winstate = winstate.style.visibility = "visible"  
+      document.body.style.backgroundImage = "url('resources/index/download.jpg')";
+    }
   }
   else {
+
     id = id.toLowerCase()
     const key = document.getElementById(id);
     key.style.backgroundColor = "red";
     key.style.cursor = "auto";
+    key.removeAttribute("onclick")
     deathcounter +=1
     guy = document.getElementById(`w${[deathcounter]}`)
-    guy = guy.style.visibility.visible
+    guy = guy.style.visibility = "visible"
+    console.log(deathcounter)
+    console.log(choice.length)
+    if (deathcounter == 6) {
+      winstate = document.getElementById("winstate")
+      winstate.textContent = "Congratulations, YOU LOSE!!!"
+      winstate = winstate.style.visibility = "visible"
+      document.body.style.backgroundImage = "url('resources/index/eyedeath.gif')";
+      
+
+    }
   }
 }
 
