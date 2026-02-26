@@ -22,30 +22,25 @@ function genKeyboard(){
     }
     counter++
     if (i == 3) {
-      console.log(choice)
+    
       length = choice.length
       holder = document.getElementsByClassName("in_and_out")[0]
-      console.log(length)
       for(let i= 0; i < length; i++) {
         let newletter = document.createElement("div");
         newletter.className = "letter";
         newletter.id = i
         holder.appendChild(newletter);
-        console.log("increased div amount")
       }
     }
   }
 
 }
 function keyPress(id) {
-  let output = document.getElementsByTagName("div")[3];
   index = []
   id = id.toUpperCase();
   length = choice.length
   if (choice.includes(id)) {
-    console.log("yo")  
     for(let i= 0; i < length; i++) {
-      console.log(choice[i])
       if (choice[i] == id) {
         index.push(i)
         
@@ -57,7 +52,6 @@ function keyPress(id) {
     key.style.backgroundColor = "green";
     key.style.cursor = "auto";
     key.removeAttribute("onclick")
-    console.log(index)
     for (let i = 0; i < index.length; i++) {
       phrasebox = document.getElementById(`${[index[i]]}`)
       phrasebox.textContent = id.toUpperCase()
@@ -82,8 +76,6 @@ function keyPress(id) {
     deathcounter +=1
     guy = document.getElementById(`w${[deathcounter]}`)
     guy = guy.style.visibility = "visible"
-    console.log(deathcounter)
-    console.log(choice.length)
     if (deathcounter == 6) {
       winstate = document.getElementById("winstate")
       winstate.textContent = "Congratulations, YOU LOSE!!!"
