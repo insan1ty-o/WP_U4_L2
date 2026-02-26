@@ -68,6 +68,8 @@ function keyPress(id) {
       winstate.textContent = "Congratulations, YOU WON!!!"
       winstate = winstate.style.visibility = "visible"  
       document.body.style.backgroundImage = "url('resources/index/download.jpg')";
+      const resetbutton = document.getElementById("replay")
+      resetbutton = resetbutton.style.visibility = "visible"
     }
   }
   else {
@@ -87,9 +89,14 @@ function keyPress(id) {
       winstate.textContent = "Congratulations, YOU LOSE!!!"
       winstate = winstate.style.visibility = "visible"
       document.body.style.backgroundImage = "url('resources/index/eyedeath.gif')";
+      const resetbutton = document.getElementById("replay")
+      resetbutton = resetbutton.style.visibility = "visible"
+      
       
 
     }
   }
 }
-
+function Reset(){
+  location.reload()
+}
